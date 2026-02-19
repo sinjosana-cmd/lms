@@ -1,6 +1,14 @@
 {
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify",
+    "deploy": "gh-pages -d ."
   }
 }
