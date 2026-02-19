@@ -1,4 +1,5 @@
 {
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
